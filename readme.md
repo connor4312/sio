@@ -6,7 +6,7 @@ Sio was created because I was frustrated with making temporary index files and m
 
 Installation:
 
-```
+```bash
 npm install -g sio
 ```
 
@@ -17,3 +17,20 @@ It's a terminal app. Features:
  * Pausing and unpausing output
  * Emitting your own events
  * More to come?
+
+## Usage
+
+```bash
+# Connect to a server
+c <host> <port>
+# Emit an event. The "data" will be evaluated, so any valid Js goes.
+e <name> # <data>
+# Filter event names. They're matched with minimatch.
+f <pattern>
+# Removes all filters
+uf
+# Pauses output
+p
+# Unpauses output
+up
+```
