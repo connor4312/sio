@@ -1,11 +1,8 @@
 {
   "name": "sio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Socket.io CLI utility",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/connor4312/sio"
@@ -18,7 +15,7 @@
     "debugger"
   ],
   "bin": {
-    "sio": "index"
+    "sio": "./"
   },
   "preferGlobal": true,
   "author": "Connor Peet <connor@connorpeet.com>",
