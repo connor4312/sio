@@ -17,6 +17,10 @@
     "cli",
     "debugger"
   ],
+  "bin": {
+    "sio": "index"
+  },
+  "preferGlobal": true,
   "author": "Connor Peet <connor@connorpeet.com>",
   "license": "MIT",
   "bugs": {
