@@ -15,7 +15,7 @@
     "debugger"
   ],
   "bin": {
-    "sio": "./"
+    "sio": "index.js"
   },
   "preferGlobal": true,
   "author": "Connor Peet <connor@connorpeet.com>",
