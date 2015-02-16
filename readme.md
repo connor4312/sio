@@ -33,4 +33,6 @@ uf
 p
 # Unpauses output
 up
+# Clears all output
+cls
 ```
